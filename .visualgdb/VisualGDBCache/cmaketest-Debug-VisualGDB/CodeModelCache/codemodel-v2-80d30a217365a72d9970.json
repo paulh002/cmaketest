@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-DEBUG-f6bc0a0be4d11003bb84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/lvgl-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.lvgl-build-DEBUG-1499ab11573af9e4787d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/VisualGDB/Debug/_deps/lvgl-src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "DEBUG",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmaketest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lvgl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmaketest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmaketest-DEBUG-c30e5b23ecde1cda2f51.json",
+					"name" : "cmaketest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl::@928b868d086e6903a024",
+					"jsonFile" : "target-lvgl-DEBUG-de32bd3bf9ad374fd277.json",
+					"name" : "lvgl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_demos::@928b868d086e6903a024",
+					"jsonFile" : "target-lvgl_demos-DEBUG-70221c10fa15f61de2f1.json",
+					"name" : "lvgl_demos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_examples::@928b868d086e6903a024",
+					"jsonFile" : "target-lvgl_examples-DEBUG-8aa7efbdec91266aec20.json",
+					"name" : "lvgl_examples",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pi/VisualGDB/c/Users/paulh/OneDrive/source/cmaketest/build/VisualGDB/Debug",
+		"source" : "/home/pi/VisualGDB/c/Users/paulh/OneDrive/source/cmaketest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
